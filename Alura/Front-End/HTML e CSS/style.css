@@ -95,7 +95,7 @@ footer{
 }
 
 form {
-    margin: 40px 0;
+    margin: 40px 20px;
 }
 
 form label, form legend {
@@ -114,13 +114,14 @@ form label, form legend {
 .checkbox {
     margin: 20px 0;
 }
+
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: orange;
+    background: #868689;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -128,12 +129,12 @@ form label, form legend {
 }
 
 .enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
+    background: #5c5c5e;
+    /* transform: scale(1.2); */
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 20px;
 }
 
 thead {
@@ -270,4 +271,11 @@ th, td {
         margin: 5% 2%;
     }
     
+    form {
+        width: auto;
+    }
+
+    .input-padrao, .enviar {
+        width: 80%;
+    }
 }
