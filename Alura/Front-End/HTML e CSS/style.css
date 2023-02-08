@@ -259,5 +259,15 @@ th, td {
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
+
+    .produtos {
+        width: auto;
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+        margin: 5% 2%;
+    }
     
 }
